@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade.Facade</OriginalElement>
+  <nodes>
+    <node x="417.0" y="128.0">structural.facade.EncodedBase64</node>
+    <node x="630.0" y="128.0">structural.facade.WordsReverser</node>
+    <node x="204.0" y="128.0">structural.facade.FullReverser</node>
+    <node x="0.0" y="115.0">structural.facade.Type</node>
+    <node x="417.0" y="0.0">structural.facade.Converter</node>
+    <node x="193.14583333333331" y="256.0">structural.facade.Facade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.facade.FullReverser" target="structural.facade.Converter" relationship="REALIZATION">
+      <point x="0.0" y="-32.5" />
+      <point x="300.5" y="90.0" />
+      <point x="513.5" y="90.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="structural.facade.WordsReverser" target="structural.facade.Converter" relationship="REALIZATION">
+      <point x="0.0" y="-32.5" />
+      <point x="726.5" y="90.0" />
+      <point x="513.5" y="90.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="structural.facade.Facade" target="structural.facade.EncodedBase64" relationship="CREATE">
+      <point x="45.799999999999955" y="-45.5" />
+      <point x="353.44583333333327" y="226.0" />
+      <point x="513.5" y="226.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="structural.facade.Facade" target="structural.facade.Type" relationship="TO_MANY">
+      <point x="-91.60000000000002" y="-45.5" />
+      <point x="216.0458333333333" y="236.0" />
+      <point x="46.0" y="236.0" />
+      <point x="-46.0" y="45.5" />
+    </edge>
+    <edge source="structural.facade.EncodedBase64" target="structural.facade.Converter" relationship="REALIZATION">
+      <point x="0.0" y="-32.5" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="structural.facade.Facade" target="structural.facade.FullReverser" relationship="CREATE">
+      <point x="0.0" y="-45.5" />
+      <point x="307.6458333333333" y="236.0" />
+      <point x="300.5" y="236.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="structural.facade.Facade" target="structural.facade.Type" relationship="DEPENDENCY">
+      <point x="-45.80000000000001" y="-45.5" />
+      <point x="261.8458333333333" y="226.0" />
+      <point x="138.0" y="226.0" />
+      <point x="46.0" y="45.5" />
+    </edge>
+    <edge source="structural.facade.Facade" target="structural.facade.WordsReverser" relationship="CREATE">
+      <point x="91.60000000000002" y="-45.5" />
+      <point x="399.24583333333334" y="236.0" />
+      <point x="726.5" y="236.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="276.0" y="101.5" />
+  <SelectedNodes>
+    <node>structural.facade.Facade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

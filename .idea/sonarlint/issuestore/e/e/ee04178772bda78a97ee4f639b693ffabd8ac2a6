@@ -1,0 +1,25 @@
+
+›
+java:S1130"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(ÄÁ …
+
+java:S1130"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(ÄÁ …
+
+java:S1130"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(ÄÁ …
+
+java:S1130"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(ÄÁ …
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ş¡ó•
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(Œ´Óúÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(¸¬§¤ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬¦Çşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ËÇšè
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ú³›şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ö¸ä³øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÇèôüÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ÿğ,
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¡¯}
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤‰ıÑ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‹æ´=

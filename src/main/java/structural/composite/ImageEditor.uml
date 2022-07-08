@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.composite.ImageEditor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="141.0">structural.composite.CompoundGraphic</node>
+    <node x="128.46956521739128" y="561.0">structural.composite.ImageEditor</node>
+    <node x="226.0" y="154.0">structural.composite.Dot</node>
+    <node x="179.5" y="390.0">structural.composite.Circle</node>
+    <node x="225.9978260869565" y="0.0">structural.composite.Graphic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.composite.Dot" target="structural.composite.Graphic" relationship="REALIZATION">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="structural.composite.ImageEditor" target="structural.composite.Circle" relationship="CREATE">
+      <point x="0.0" y="-72.5" />
+      <point x="266.4695652173913" y="540.0" />
+      <point x="265.0" y="540.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="structural.composite.ImageEditor" target="structural.composite.CompoundGraphic" relationship="CREATE">
+      <point x="-55.19999999999999" y="-72.5" />
+      <point x="211.2695652173913" y="530.0" />
+      <point x="110.58260869565217" y="530.0" />
+      <point x="110.58260869565217" y="364.0" />
+      <point x="154.5" y="364.0" />
+      <point x="51.5" y="98.5" />
+    </edge>
+    <edge source="structural.composite.ImageEditor" target="structural.composite.Dot" relationship="CREATE">
+      <point x="55.2" y="-72.5" />
+      <point x="321.66956521739127" y="540.0" />
+      <point x="361.0" y="540.0" />
+      <point x="361.0" y="364.0" />
+      <point x="356.5" y="364.0" />
+      <point x="43.5" y="85.5" />
+    </edge>
+    <edge source="structural.composite.ImageEditor" target="structural.composite.Graphic" relationship="DEPENDENCY">
+      <point x="110.4" y="-72.5" />
+      <point x="376.86956521739125" y="540.0" />
+      <point x="410.5" y="540.0" />
+      <point x="410.5" y="121.0" />
+      <point x="370.9978260869565" y="121.0" />
+      <point x="58.0" y="45.5" />
+    </edge>
+    <edge source="structural.composite.CompoundGraphic" target="structural.composite.Graphic" relationship="REALIZATION">
+      <point x="51.5" y="-98.5" />
+      <point x="154.5" y="121.0" />
+      <point x="312.99782608695654" y="121.0" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="structural.composite.CompoundGraphic" target="structural.composite.Graphic" relationship="TO_MANY">
+      <point x="-51.5" y="-98.5" />
+      <point x="51.5" y="111.0" />
+      <point x="254.9978260869565" y="111.0" />
+      <point x="-58.0" y="45.5" />
+    </edge>
+    <edge source="structural.composite.Circle" target="structural.composite.Dot" relationship="GENERALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="265.0" y="364.0" />
+      <point x="269.5" y="364.0" />
+      <point x="-43.5" y="85.5" />
+    </edge>
+    <edge source="structural.composite.ImageEditor" target="structural.composite.CompoundGraphic" relationship="TO_ONE">
+      <point x="-110.39999999999998" y="-72.5" />
+      <point x="156.0695652173913" y="540.0" />
+      <point x="99.58260869565217" y="540.0" />
+      <point x="99.58260869565217" y="364.0" />
+      <point x="51.5" y="364.0" />
+      <point x="-51.5" y="98.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="77.5" y="18.0" />
+  <SelectedNodes>
+    <node>structural.composite.ImageEditor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

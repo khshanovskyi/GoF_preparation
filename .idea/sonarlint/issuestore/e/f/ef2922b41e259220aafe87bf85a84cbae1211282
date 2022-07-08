@@ -1,0 +1,8 @@
+
+i
+java:S29754"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êš×“
+^
+java:S11824"HUse super.clone() to create and seed the cloned instance to be returned.(êš×“
+h	java:S116;"NRename this field "RAM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºó§ãúÿÿÿÿ
+j	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åæ§Ô8ð‰Ú­í/
+f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åæ§Ô

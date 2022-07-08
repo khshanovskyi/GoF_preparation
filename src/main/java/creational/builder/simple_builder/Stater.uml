@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.builder.simple_builder.Stater</OriginalElement>
+  <nodes>
+    <node x="-98.0" y="-269.0">creational.builder.simple_builder.User.UserBuilder</node>
+    <node x="-106.55128205128204" y="334.0">creational.builder.simple_builder.Stater</node>
+    <node x="-15.833333333333343" y="-20.0">creational.builder.simple_builder.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.builder.simple_builder.User.UserBuilder" target="creational.builder.simple_builder.User" relationship="CREATE">
+      <point x="76.0" y="84.5" />
+      <point x="92.0" y="-68.0" />
+      <point x="143.33333333333331" y="-68.0" />
+      <point x="63.66666666666665" y="-110.5" />
+    </edge>
+    <edge source="creational.builder.simple_builder.Stater" target="creational.builder.simple_builder.User.UserBuilder" relationship="CREATE">
+      <point x="-44.0" y="-32.5" />
+      <point x="-62.551282051282044" y="-68.0" />
+      <point x="-7.358974358974365" y="-68.0" />
+      <point x="-7.358974358974365" y="-78.0" />
+      <point x="-60.0" y="-78.0" />
+      <point x="-76.0" y="84.5" />
+    </edge>
+    <edge source="creational.builder.simple_builder.User" target="creational.builder.simple_builder.User.UserBuilder" relationship="DEPENDENCY">
+      <point x="-63.66666666666666" y="-110.5" />
+      <point x="16.0" y="-68.0" />
+      <point x="-7.358974358974365" y="-68.0" />
+      <point x="-7.358974358974365" y="-78.0" />
+      <point x="-60.0" y="-78.0" />
+      <point x="-76.0" y="84.5" />
+    </edge>
+    <edge source="creational.builder.simple_builder.User.UserBuilder" target="creational.builder.simple_builder.User" relationship="INNER_CLASS">
+      <point x="0.0" y="84.5" />
+      <point x="16.0" y="-68.0" />
+      <point x="79.66666666666666" y="-68.0" />
+      <point x="0.0" y="-110.5" />
+    </edge>
+    <edge source="creational.builder.simple_builder.Stater" target="creational.builder.simple_builder.User" relationship="DEPENDENCY">
+      <point x="44.0" y="-32.5" />
+      <point x="25.448717948717956" y="201.0" />
+      <point x="0.0" y="110.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="54.5" y="58.5" />
+  <SelectedNodes>
+    <node>creational.builder.simple_builder.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

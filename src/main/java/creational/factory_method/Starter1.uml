@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.factory_method.Starter1</OriginalElement>
+  <nodes>
+    <node x="87.39999999999998" y="-162.0">creational.factory_method.Delivery</node>
+    <node x="-64.35000000000002" y="-277.0">creational.factory_method.Transport</node>
+    <node x="-590.8333333333333" y="292.0">creational.factory_method.CarDelivery</node>
+    <node x="-217.0" y="-149.0">creational.factory_method.Truck</node>
+    <node x="-559.0" y="-149.0">creational.factory_method.Car</node>
+    <node x="-130.83333333333326" y="292.0">creational.factory_method.TruckDelivery</node>
+    <node x="-360.83333333333326" y="292.0">creational.factory_method.BicycleDelivery</node>
+    <node x="-388.0" y="-149.0">creational.factory_method.Bicycle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.factory_method.CarDelivery" target="creational.factory_method.Car" relationship="CREATE">
+      <point x="-76.66666666666669" y="-46.0" />
+      <point x="-552.5" y="-57.0" />
+      <point x="0.0" y="46.0" />
+    </edge>
+    <edge source="creational.factory_method.Car" target="creational.factory_method.Transport" relationship="REALIZATION">
+      <point x="0.0" y="-46.0" />
+      <point x="-483.5" y="-182.0" />
+      <point x="-280.68333333333334" y="-182.0" />
+      <point x="-280.68333333333334" y="-192.0" />
+      <point x="-26.600000000000023" y="-192.0" />
+      <point x="-37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.BicycleDelivery" target="creational.factory_method.Bicycle" relationship="CREATE">
+      <point x="-76.66666666666669" y="-46.0" />
+      <point x="-322.49999999999994" y="-13.0" />
+      <point x="-312.5" y="-13.0" />
+      <point x="0.0" y="46.0" />
+    </edge>
+    <edge source="creational.factory_method.BicycleDelivery" target="creational.factory_method.Delivery" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.0" />
+      <point x="-245.83333333333326" y="-3.0" />
+      <point x="202.39999999999998" y="-3.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="creational.factory_method.TruckDelivery" target="creational.factory_method.Transport" relationship="DEPENDENCY">
+      <point x="76.66666666666669" y="-46.0" />
+      <point x="60.83333333333343" y="-3.0" />
+      <point x="427.39166666666665" y="-3.0" />
+      <point x="427.39166666666665" y="-182.0" />
+      <point x="202.39999999999998" y="-182.0" />
+      <point x="202.39999999999998" y="-192.0" />
+      <point x="48.89999999999998" y="-192.0" />
+      <point x="37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.CarDelivery" target="creational.factory_method.Transport" relationship="DEPENDENCY">
+      <point x="0.0" y="-46.0" />
+      <point x="-475.83333333333326" y="-3.0" />
+      <point x="-55.5" y="-3.0" />
+      <point x="-55.5" y="-182.0" />
+      <point x="202.39999999999998" y="-182.0" />
+      <point x="202.39999999999998" y="-192.0" />
+      <point x="48.89999999999998" y="-192.0" />
+      <point x="37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.Bicycle" target="creational.factory_method.Transport" relationship="REALIZATION">
+      <point x="0.0" y="-46.0" />
+      <point x="-312.5" y="-182.0" />
+      <point x="-280.68333333333334" y="-182.0" />
+      <point x="-280.68333333333334" y="-192.0" />
+      <point x="-26.600000000000023" y="-192.0" />
+      <point x="-37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.CarDelivery" target="creational.factory_method.Delivery" relationship="GENERALIZATION">
+      <point x="76.66666666666667" y="-46.0" />
+      <point x="-399.1666666666666" y="-3.0" />
+      <point x="202.39999999999998" y="-3.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="creational.factory_method.Delivery" target="creational.factory_method.Transport" relationship="DEPENDENCY">
+      <point x="0.0" y="-59.0" />
+      <point x="202.39999999999998" y="-192.0" />
+      <point x="48.89999999999998" y="-192.0" />
+      <point x="37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.Truck" target="creational.factory_method.Transport" relationship="REALIZATION">
+      <point x="0.0" y="-46.0" />
+      <point x="-141.5" y="-182.0" />
+      <point x="-280.68333333333334" y="-182.0" />
+      <point x="-280.68333333333334" y="-192.0" />
+      <point x="-26.600000000000023" y="-192.0" />
+      <point x="-37.75" y="32.5" />
+    </edge>
+    <edge source="creational.factory_method.TruckDelivery" target="creational.factory_method.Truck" relationship="CREATE">
+      <point x="0.0" y="-46.0" />
+      <point x="-15.833333333333258" y="-23.0" />
+      <point x="-141.5" y="-23.0" />
+      <point x="0.0" y="46.0" />
+    </edge>
+    <edge source="creational.factory_method.TruckDelivery" target="creational.factory_method.Delivery" relationship="GENERALIZATION">
+      <point x="-76.66666666666669" y="-46.0" />
+      <point x="-92.49999999999994" y="-3.0" />
+      <point x="202.39999999999998" y="-3.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="creational.factory_method.BicycleDelivery" target="creational.factory_method.Transport" relationship="DEPENDENCY">
+      <point x="76.66666666666669" y="-46.0" />
+      <point x="-169.16666666666657" y="-13.0" />
+      <point x="377.79166666666674" y="-13.0" />
+      <point x="377.79166666666674" y="-182.0" />
+      <point x="202.39999999999998" y="-182.0" />
+      <point x="202.39999999999998" y="-192.0" />
+      <point x="48.89999999999998" y="-192.0" />
+      <point x="37.75" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="61.5" y="18.0" />
+  <SelectedNodes>
+    <node>creational.factory_method.TruckDelivery</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

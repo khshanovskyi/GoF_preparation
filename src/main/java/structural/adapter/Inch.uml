@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.adapter.Inch</OriginalElement>
+  <nodes>
+    <node x="-298.5714285714287" y="139.28571428571428">structural.adapter.Centimeter</node>
+    <node x="-533.5714285714287" y="139.28571428571428">structural.adapter.Millimeter</node>
+    <node x="60.21428571428578" y="-225.71428571428572">structural.adapter.Measure</node>
+    <node x="24.01376488095218" y="801.2857142857142">structural.adapter.Starter</node>
+    <node x="-140.8195684523812" y="344.2857142857143">structural.adapter.MeasureAdapterImpl</node>
+    <node x="-768.5714285714287" y="139.28571428571428">structural.adapter.Foot</node>
+    <node x="577.6090029761904" y="294.00000000000006">structural.adapter.MeasureAdapter</node>
+    <node x="19.180431547618923" y="139.28571428571428">structural.adapter.Inch</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.adapter.Foot" target="structural.adapter.Measure" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="-661.0714285714287" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="109.28571428571428" />
+      <point x="96.04761904761915" y="109.28571428571428" />
+      <point x="-71.66666666666663" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Foot" relationship="CREATE">
+      <point x="-229.28571428571422" y="-97.5" />
+      <point x="-102.60528273809541" y="323.2857142857143" />
+      <point x="-661.0714285714287" y="323.2857142857143" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapter" target="structural.adapter.Measure" relationship="DEPENDENCY">
+      <point x="0.0" y="-32.5" />
+      <point x="782.1090029761904" y="119.28571428571428" />
+      <point x="311.5848214285711" y="119.28571428571428" />
+      <point x="311.5848214285711" y="109.28571428571428" />
+      <point x="239.38095238095252" y="109.28571428571428" />
+      <point x="71.66666666666674" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.Inch" relationship="CREATE">
+      <point x="44.0" y="-32.5" />
+      <point x="156.01376488095218" y="570.2857142857142" />
+      <point x="404.6804315476188" y="570.2857142857142" />
+      <point x="404.6804315476188" y="313.2857142857143" />
+      <point x="126.68043154761892" y="313.2857142857143" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.Centimeter" relationship="CREATE">
+      <point x="-14.666666666666629" y="-32.5" />
+      <point x="97.34709821428555" y="560.2857142857142" />
+      <point x="-191.07142857142873" y="560.2857142857142" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.Foot" relationship="CREATE">
+      <point x="-73.33333333333326" y="-32.5" />
+      <point x="38.68043154761892" y="580.2857142857142" />
+      <point x="-661.0714285714287" y="580.2857142857142" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Millimeter" relationship="CREATE">
+      <point x="-152.85714285714278" y="-97.5" />
+      <point x="-26.176711309523967" y="313.2857142857143" />
+      <point x="-426.07142857142867" y="313.2857142857143" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Inch" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-97.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.Inch" target="structural.adapter.Measure" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="126.68043154761892" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="109.28571428571428" />
+      <point x="96.04761904761915" y="109.28571428571428" />
+      <point x="-71.66666666666663" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.MeasureAdapter" relationship="REALIZATION">
+      <point x="229.28571428571433" y="-97.5" />
+      <point x="355.96614583333314" y="323.2857142857143" />
+      <point x="679.8590029761904" y="323.2857142857143" />
+      <point x="-102.25" y="32.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.Millimeter" relationship="CREATE">
+      <point x="-44.0" y="-32.5" />
+      <point x="68.01376488095218" y="570.2857142857142" />
+      <point x="-426.07142857142867" y="570.2857142857142" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.Centimeter" target="structural.adapter.Measure" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="-191.07142857142873" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="109.28571428571428" />
+      <point x="96.04761904761915" y="109.28571428571428" />
+      <point x="-71.66666666666663" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Centimeter" relationship="CREATE">
+      <point x="-76.42857142857133" y="-97.5" />
+      <point x="50.25186011904748" y="303.2857142857143" />
+      <point x="-191.07142857142873" y="303.2857142857143" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.MeasureAdapter" relationship="DEPENDENCY">
+      <point x="73.33333333333337" y="-32.5" />
+      <point x="185.34709821428555" y="580.2857142857142" />
+      <point x="442.7098214285711" y="580.2857142857142" />
+      <point x="442.7098214285711" y="323.2857142857143" />
+      <point x="884.3590029761904" y="323.2857142857143" />
+      <point x="102.25" y="32.5" />
+    </edge>
+    <edge source="structural.adapter.Starter" target="structural.adapter.MeasureAdapterImpl" relationship="CREATE">
+      <point x="14.666666666666629" y="-32.5" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Measure" relationship="DEPENDENCY">
+      <point x="152.857142857143" y="-97.5" />
+      <point x="279.5375744047618" y="323.2857142857143" />
+      <point x="255.68043154761904" y="323.2857142857143" />
+      <point x="255.68043154761904" y="119.28571428571428" />
+      <point x="311.5848214285711" y="119.28571428571428" />
+      <point x="311.5848214285711" y="109.28571428571428" />
+      <point x="239.38095238095252" y="109.28571428571428" />
+      <point x="71.66666666666674" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.Millimeter" target="structural.adapter.Measure" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="-426.07142857142867" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="119.28571428571428" />
+      <point x="-308.5714285714287" y="109.28571428571428" />
+      <point x="96.04761904761915" y="109.28571428571428" />
+      <point x="-71.66666666666663" y="97.5" />
+    </edge>
+    <edge source="structural.adapter.MeasureAdapterImpl" target="structural.adapter.Measure" relationship="TO_MANY">
+      <point x="76.42857142857156" y="-97.5" />
+      <point x="203.10900297619037" y="323.2857142857143" />
+      <point x="244.68043154761892" y="323.2857142857143" />
+      <point x="244.68043154761892" y="119.28571428571428" />
+      <point x="167.71428571428578" y="119.28571428571428" />
+      <point x="0.0" y="97.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7" showDependencies="true" x="159.3571428571429" y="277.7857142857143" />
+  <SelectedNodes>
+    <node>structural.adapter.Starter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

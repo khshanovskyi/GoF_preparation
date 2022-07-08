@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.abstract_factory.entity</OriginalElement>
+  <nodes>
+    <node x="307.9681803490628" y="-129.41176470588238">creational.abstract_factory.entity.Furniture</node>
+    <node x="444.89861762012515" y="184.58823529411762">creational.abstract_factory.factory.ClassicFurnitureFactory</node>
+    <node x="472.1956872171943" y="8.588235294117624">creational.abstract_factory.entity.Table</node>
+    <node x="217.57774994613203" y="-4.411764705882376">creational.abstract_factory.factory.FurnitureFactory</node>
+    <node x="731.6956872171943" y="8.588235294117624">creational.abstract_factory.entity.Chair</node>
+    <node x="-524.137646116139" y="480.5882352941176">creational.abstract_factory.Starter</node>
+    <node x="909.6956872171943" y="8.588235294117624">creational.abstract_factory.entity.Sofa</node>
+    <node x="-163.13764611613902" y="363.5882352941176">creational.abstract_factory.OrderExecutor</node>
+    <node x="-176.48319327731093" y="197.58823529411762">creational.abstract_factory.FurnitureProvider</node>
+    <node x="699.8986176201252" y="184.58823529411762">creational.abstract_factory.factory.ModernFurnitureFactory</node>
+    <node x="-488.25558338720134" y="8.588235294117624">creational.abstract_factory.entity.FurnitureType</node>
+    <node x="-567.9117647058824" y="197.58823529411762">creational.abstract_factory.entity.FurnitureStyle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.abstract_factory.entity.Table" target="creational.abstract_factory.entity.Furniture" relationship="REALIZATION">
+      <point x="0.0" y="-45.5" />
+      <point x="551.1956872171943" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-44.411764705882376" />
+      <point x="406.9681803490628" y="-44.411764705882376" />
+      <point x="33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.entity.FurnitureType" relationship="DEPENDENCY">
+      <point x="-163.1428571428571" y="-32.5" />
+      <point x="-40.780503258996134" y="332.5882352941176" />
+      <point x="-316.98319327731093" y="332.5882352941176" />
+      <point x="-316.98319327731093" y="163.58823529411762" />
+      <point x="-368.75558338720134" y="163.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.Starter" target="creational.abstract_factory.OrderExecutor" relationship="DEPENDENCY">
+      <point x="66.0" y="-32.5" />
+      <point x="-370.13764611613897" y="459.5882352941176" />
+      <point x="122.36235388386098" y="459.5882352941176" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.FurnitureProvider" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="-70.625" y="-45.5" />
+      <point x="35.39180672268907" y="163.58823529411762" />
+      <point x="84.37622751023468" y="163.58823529411762" />
+      <point x="84.37622751023468" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.entity.FurnitureStyle" relationship="DEPENDENCY">
+      <point x="-244.71428571428567" y="-32.5" />
+      <point x="-122.35193183042469" y="342.5882352941176" />
+      <point x="-448.41176470588243" y="342.5882352941176" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ClassicFurnitureFactory" target="creational.abstract_factory.entity.Table" relationship="CREATE">
+      <point x="0.0" y="-58.5" />
+      <point x="562.3986176201252" y="133.58823529411762" />
+      <point x="551.1956872171943" y="133.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ModernFurnitureFactory" target="creational.abstract_factory.entity.Chair" relationship="CREATE">
+      <point x="0.0" y="-58.5" />
+      <point x="821.8986176201252" y="163.58823529411762" />
+      <point x="810.6956872171943" y="163.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ModernFurnitureFactory" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="97.60000000000002" y="-58.5" />
+      <point x="919.4986176201252" y="163.58823529411762" />
+      <point x="1120.1762275102346" y="163.58823529411762" />
+      <point x="1120.1762275102346" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.FurnitureProvider" relationship="CREATE">
+      <point x="0.0" y="-32.5" />
+      <point x="122.36235388386098" y="342.5882352941176" />
+      <point x="106.01680672268907" y="342.5882352941176" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.FurnitureProvider" target="creational.abstract_factory.factory.FurnitureFactory" relationship="DEPENDENCY">
+      <point x="70.625" y="-45.5" />
+      <point x="176.64180672268907" y="163.58823529411762" />
+      <point x="251.24441661279872" y="163.58823529411762" />
+      <point x="-67.33333333333333" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ClassicFurnitureFactory" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="-47.0" y="-58.5" />
+      <point x="515.3986176201252" y="163.58823529411762" />
+      <point x="452.6956872171943" y="163.58823529411762" />
+      <point x="452.6956872171943" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ClassicFurnitureFactory" target="creational.abstract_factory.factory.FurnitureFactory" relationship="REALIZATION">
+      <point x="-94.0" y="-58.5" />
+      <point x="468.39861762012515" y="143.58823529411762" />
+      <point x="433.7806803490628" y="143.58823529411762" />
+      <point x="433.7806803490628" y="133.58823529411762" />
+      <point x="385.91108327946534" y="133.58823529411762" />
+      <point x="67.33333333333331" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ModernFurnitureFactory" target="creational.abstract_factory.entity.Sofa" relationship="CREATE">
+      <point x="48.799999999999955" y="-58.5" />
+      <point x="870.6986176201251" y="153.58823529411762" />
+      <point x="988.6956872171943" y="153.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="-81.57142857142856" y="-32.5" />
+      <point x="40.79092531243242" y="322.5882352941176" />
+      <point x="-186.98319327731093" y="322.5882352941176" />
+      <point x="-186.98319327731093" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.factory.ClassicFurnitureFactory" relationship="CREATE">
+      <point x="163.14285714285714" y="-32.5" />
+      <point x="285.50521102671814" y="332.5882352941176" />
+      <point x="562.3986176201252" y="332.5882352941176" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.entity.Chair" target="creational.abstract_factory.entity.Furniture" relationship="REALIZATION">
+      <point x="0.0" y="-45.5" />
+      <point x="810.6956872171943" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-44.411764705882376" />
+      <point x="406.9681803490628" y="-44.411764705882376" />
+      <point x="33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.FurnitureProvider" target="creational.abstract_factory.entity.FurnitureType" relationship="DEPENDENCY">
+      <point x="-211.875" y="-45.5" />
+      <point x="-105.85819327731093" y="163.58823529411762" />
+      <point x="-368.75558338720134" y="163.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.Starter" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="-66.0" y="-32.5" />
+      <point x="-502.13764611613897" y="459.5882352941176" />
+      <point x="-589.4117647058824" y="459.5882352941176" />
+      <point x="-589.4117647058824" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ClassicFurnitureFactory" target="creational.abstract_factory.entity.Chair" relationship="CREATE">
+      <point x="47.0" y="-58.5" />
+      <point x="609.3986176201252" y="163.58823529411762" />
+      <point x="810.6956872171943" y="163.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.FurnitureProvider" target="creational.abstract_factory.factory.FurnitureFactory" relationship="TO_ONE">
+      <point x="211.875" y="-45.5" />
+      <point x="317.89180672268907" y="163.58823529411762" />
+      <point x="399.0168067226891" y="163.58823529411762" />
+      <point x="399.0168067226891" y="153.58823529411762" />
+      <point x="318.57774994613203" y="153.58823529411762" />
+      <point x="-1.4210854715202004E-14" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.factory.FurnitureFactory" relationship="TO_ONE">
+      <point x="81.57142857142856" y="-32.5" />
+      <point x="203.93378245528953" y="322.5882352941176" />
+      <point x="399.0168067226891" y="322.5882352941176" />
+      <point x="399.0168067226891" y="153.58823529411762" />
+      <point x="318.57774994613203" y="153.58823529411762" />
+      <point x="-1.4210854715202004E-14" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.Starter" target="creational.abstract_factory.entity.FurnitureType" relationship="DEPENDENCY">
+      <point x="-22.0" y="-32.5" />
+      <point x="-458.13764611613897" y="449.5882352941176" />
+      <point x="-578.4117647058824" y="449.5882352941176" />
+      <point x="-578.4117647058824" y="163.58823529411762" />
+      <point x="-368.75558338720134" y="163.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.entity.Sofa" target="creational.abstract_factory.entity.Furniture" relationship="REALIZATION">
+      <point x="0.0" y="-45.5" />
+      <point x="988.6956872171943" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-24.411764705882376" />
+      <point x="814.1306803490629" y="-44.411764705882376" />
+      <point x="406.9681803490628" y="-44.411764705882376" />
+      <point x="33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.Starter" target="creational.abstract_factory.entity.FurnitureStyle" relationship="DEPENDENCY">
+      <point x="22.0" y="-32.5" />
+      <point x="-414.13764611613897" y="459.5882352941176" />
+      <point x="-448.41176470588243" y="459.5882352941176" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ModernFurnitureFactory" target="creational.abstract_factory.factory.FurnitureFactory" relationship="REALIZATION">
+      <point x="-97.60000000000002" y="-58.5" />
+      <point x="724.2986176201251" y="143.58823529411762" />
+      <point x="433.7806803490628" y="143.58823529411762" />
+      <point x="433.7806803490628" y="133.58823529411762" />
+      <point x="385.91108327946534" y="133.58823529411762" />
+      <point x="67.33333333333331" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.OrderExecutor" target="creational.abstract_factory.factory.ModernFurnitureFactory" relationship="CREATE">
+      <point x="244.71428571428572" y="-32.5" />
+      <point x="367.0766395981467" y="342.5882352941176" />
+      <point x="821.8986176201252" y="342.5882352941176" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.FurnitureFactory" target="creational.abstract_factory.entity.Furniture" relationship="DEPENDENCY">
+      <point x="0.0" y="-58.5" />
+      <point x="318.57774994613203" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-34.411764705882376" />
+      <point x="184.46818034906278" y="-44.411764705882376" />
+      <point x="340.9681803490628" y="-44.411764705882376" />
+      <point x="-33.0" y="32.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ModernFurnitureFactory" target="creational.abstract_factory.entity.Table" relationship="CREATE">
+      <point x="-48.80000000000001" y="-58.5" />
+      <point x="773.0986176201252" y="133.58823529411762" />
+      <point x="551.1956872171943" y="133.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+    <edge source="creational.abstract_factory.factory.ClassicFurnitureFactory" target="creational.abstract_factory.entity.Sofa" relationship="CREATE">
+      <point x="94.0" y="-58.5" />
+      <point x="656.3986176201252" y="153.58823529411762" />
+      <point x="988.6956872171943" y="153.58823529411762" />
+      <point x="0.0" y="45.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.85" showDependencies="true" x="249.5" y="266.00000000000006" />
+  <SelectedNodes>
+    <node>creational.abstract_factory.entity.Furniture</node>
+    <node>creational.abstract_factory.FurnitureProvider</node>
+    <node>creational.abstract_factory.factory.ModernFurnitureFactory</node>
+    <node>creational.abstract_factory.factory.ClassicFurnitureFactory</node>
+    <node>creational.abstract_factory.entity.FurnitureType</node>
+    <node>creational.abstract_factory.entity.Table</node>
+    <node>creational.abstract_factory.entity.FurnitureStyle</node>
+    <node>creational.abstract_factory.factory.FurnitureFactory</node>
+    <node>creational.abstract_factory.entity.Chair</node>
+    <node>creational.abstract_factory.Starter</node>
+    <node>creational.abstract_factory.entity.Sofa</node>
+    <node>creational.abstract_factory.OrderExecutor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

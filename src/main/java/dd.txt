@@ -1,0 +1,8 @@
+
+update runreport set locked=1, lastname=null,firstname=null,dateofbirth=null where agencyid=481 and 
+((sendtohosp=1 and (hospsectionstatusid=20 or hospsectionstatusid2=20)) or sendtohosp=0)
+and servicedate >= '2020-01-01' and servicedate <= '2020-12-31' ;
+
+delete from runerror where runid in ( select runid from runreport where agencyid=481 and 
+((sendtohosp=1 and (hospsectionstatusid=20 or hospsectionstatusid2=20)) or sendtohosp=0)
+and servicedate >= '2020-01-01' and servicedate <= '2020-12-31' );
